@@ -7,13 +7,13 @@ The code here was heavily inspired by the implementation developed by Marko Joci
 
 If you have enough knowledge about Deep Learning architectures and you know at least the basics, you can jump directly in the code. If not, I would **strongly recommend** that you read my [dissertation](https://www.cos.ufrj.br/uploadfile/publicacao/2829.pdf) where you will find the basic theory to understand.
 
-In a nutshell, this is the problem that we are trying to solve here:
+In a nutshell, this is the problem: Given a Sagittal Brain MR Image, extract only the pixels containing the Corpus Callosum structure:
 
 ![alt text](docs/segmentation.png "CC Segmentation")
 
 You can read more in the above mentioned dissertation why it's important this segmentation and in which use cases it can be helpful.
 
-The final model architecture that we create is this one:
+The final model architecture that was created is this one:
  
 ![alt text](docs/architecture.png "Final U-Net Based Architecture")
 
