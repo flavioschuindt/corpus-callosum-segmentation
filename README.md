@@ -7,6 +7,18 @@ The code here was heavily inspired by the implementation developed by Marko Joci
 
 If you have enough knowledge about Deep Learning architectures and you know at least the basics, you can jump directly in the code. If not, I would **strongly recommend** that you read my [dissertation](https://www.cos.ufrj.br/uploadfile/publicacao/2829.pdf) where you will find the basic theory to understand.
 
+In a nutshell, this is the problem that we are trying to solve here:
+
+Inline-style: 
+![alt text](docs/segmentation.png "CC Segmentation")
+
+You can read more in the above mentioned dissertation why it's important this segmentation and in which use cases it can be helpful.
+
+The final model architecture that we create is this one:
+
+Inline-style: 
+![alt text](docs/architecture.png "Final U-Net Based Architecture")
+
 ## Requirements
 
 The code was developed in [Python 3.6](https://www.python.org/downloads/release/python-360/) using [Keras](https://keras.io/) with [Tensorflow](https://www.tensorflow.org/) as backend and runs in [Jupyter Notebook](https://jupyter.org/). The best you can do to easily start running this project is to create a **python virtualenv** using [miniconda](https://docs.conda.io/en/latest/miniconda.html) and install all dependencies in this virtualenv. In order to do it:
