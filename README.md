@@ -14,11 +14,13 @@ The code was developed in [Python 3.6](https://www.python.org/downloads/release/
 * Install miniconda following the [official guide](https://docs.conda.io/en/latest/miniconda.html)
 * Create the virtualenv: ```conda create -n cc python=3.6```
 * Activate the virtualenv: ```source activate cc```
-* Go into the root of this project and then: ```pip install -r requirements.cpu.txt``` if you are running this in **CPU** or ```pip install -r requirements.gpu.txt``` for **GPU**.
+* Go into the ```src``` folder of this project and then: ```pip install -r requirements.cpu.txt``` if you are running this in **CPU** or ```pip install -r requirements.gpu.txt``` for **GPU**.
+
+The last requirement is that you **must** have dataset in order to train and test the images. Like mentioned before, the two datasets used here are OASIS and ABIDE. I didn't add the images to this repository because it's a quite expensive process and there are some limitations with GitHub related to the size of this repository. So, I'm adding these images in Google Drive, so you can use them. You can download [OASIS](https://drive.google.com/drive/folders/1CU5RvkGqMFGIwFI3Ta5aojUFjvLENKDx) and [ABIDE](https://drive.google.com/drive/folders/1WPgQXK6miAT-Wk-YbTASdjRO3jFoTYoD). Make sure you download all the images to their respective folder inside the ```src/datasets``` folder of this repository.
 
 ## Acessing the notebooks
 
-After you completed the requirements section, you can just go into the root of this project and then:
+After you completed the requirements section, you can just go into the ```src``` folder of this project and then:
 
 * ```jupyter notebook```
 * Notebook will be running by default in port ```8888``` in your computer. Just grab the output of the command and copy and paste in your preferred browser and you should be good:
