@@ -9,14 +9,12 @@ If you have enough knowledge about Deep Learning architectures and you know at l
 
 In a nutshell, this is the problem that we are trying to solve here:
 
-Inline-style: 
 ![alt text](docs/segmentation.png "CC Segmentation")
 
 You can read more in the above mentioned dissertation why it's important this segmentation and in which use cases it can be helpful.
 
 The final model architecture that we create is this one:
-
-Inline-style: 
+ 
 ![alt text](docs/architecture.png "Final U-Net Based Architecture")
 
 ## Requirements
