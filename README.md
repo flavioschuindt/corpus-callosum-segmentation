@@ -62,6 +62,6 @@ The ```train``` notebook will:
 
 **ATTENTION**: I've run these notebooks several times and some cells can be with a stack trace error output. Probably this is just for one of the test modifications that I did, but if you run it again you should be good!
 
-**ATTENTION 2**: The train notebook, in the  Data augmentation cell part of the code is commented. This is because I generated the augmentation once and I don't want to keep generating it all the time. So, if this is your first time running it, uncomment it and let it generate. For subsequent tries, you'll already have the data augmented in the file system, so you can just skip, i.e., comment all the code in this cell expect the last line which will only load from the file system.
+**ATTENTION 2**: The train notebook, in the  Data augmentation cell part of the code is commented. This is because I generated the augmentation once and I don't want to keep generating it all the time. So, if this is your first time running it, uncomment it and let it generate. For subsequent tries, you'll already have the data augmented in the file system, so you can just skip, i.e., comment all the code in this cell except the last line which will only load from the file system.
 
 **ATTENTION 3**: I didn't add in this repo the pickle datasets because they are huge. I'm just adding the raw datasets images. However, if you follow strictly and run all cells for both notebooks you should be good because the code will take care of generating the pickle datasets for you.
