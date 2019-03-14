@@ -1,4 +1,4 @@
-# Corpus Callosum Segmentation
+# Corpus Callosum Segmentation using U-Net
 
 This repository contains a [U-Net](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) based segmentation approach to segment the Corpus Callosum in MR Sagittal images. Network was training using [OASIS images](http://www.oasis-brains.org/) that contains healthy subjects and [ABIDE images](https://sites.google.com/site/hpardoe/cc_abide) that contains subjects with autism.
 The code here was heavily inspired by the implementation developed by Marko Jocic that you can also find more [here](https://www.kaggle.com/c/ultrasound-nerve-segmentation/discussion/21358) and [here](https://github.com/jocicmarko/ultrasound-nerve-segmentation).
